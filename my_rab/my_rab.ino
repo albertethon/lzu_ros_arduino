@@ -140,7 +140,7 @@ int runCommand() {
       else {
         moving = 1;
         setMotorSpeeds(arg1,arg2,arg3,arg4);
-        delay(100);
+        delay(50);
         setMotorSpeeds(0,0,0,0);
       }
       AwheelPID.TargetTicksPerFrame = arg1;
